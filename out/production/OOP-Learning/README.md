@@ -15,4 +15,16 @@ reusable
 
 ////////////////////////////////////////////////////////////////
 
+**___________Names_________**
 
+* attributes / variable / proprty / data
+* behavior / method / programs
+* object (instance of a temple)
+* Template / mold (.class)
+* Reference variable
+* local variable → int volume(stack 1ke sede)
+
+//Template eka kiyanne original class eka
+//Object eka kiyanne templete eke clone ekak/blueprint akak. 
+
+////////////////////////////////////////////////////////////////
