@@ -6,7 +6,7 @@ Object-Oriented Programming Concepts
 1. Encapsulation-ආවරණය කිරීම
 2. Inheritance-උරුමය
 3. Polymorphism-බහුරූපතාව
-4. straction-වියුක්ත කිරීම
+4. Abstraction-වියුක්ත කිරීම
 
 ////////////////////////////////////////////////////////////////
 
@@ -14,6 +14,5 @@ complex
 reusable
 
 ////////////////////////////////////////////////////////////////
-
 
 
