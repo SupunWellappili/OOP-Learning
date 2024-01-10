@@ -2,26 +2,26 @@ package Cases;
 
 import java.util.Arrays;
 
-class gift{
+class Gift{
     int length;
-
 }
+
+
 public class Demo01 {
     public static void main(String[] args) {
         //Array
-        int [] x = new int[3];
+        int[] x = new int[3];
         System.out.println(Arrays.toString(x));
 
         x[0] = 100;
         System.out.println(Arrays.toString(x));
 
         //Object
-        gift g1 = new gift();
+        Gift g1 = new Gift();
         g1.length =18;
 
         System.out.println(g1.length);
         System.out.println(g1.hashCode());
-
     }
 }
 

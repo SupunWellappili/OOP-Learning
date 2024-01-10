@@ -27,4 +27,8 @@ reusable
 //Template eka kiyanne original class eka
 //Object eka kiyanne templete eke clone ekak/blueprint akak. 
 
-////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+case 1
+======
+x[0]=100; //Arrays waladi asign krna widiya
+b1.length =18  //Object waladi asign krna widiya
