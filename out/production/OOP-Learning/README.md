@@ -185,3 +185,10 @@ Box b1 = new Box();//-->Box()------>>**_calling Constructor_**
 //constructor kranne object 1kak create  kra compile kra mohothe sita class 1ke defalut values add we...
 
 
+case 1→ (parameterized constructor)
+============================
+
+
+case 2 → (manual constructor)
+======================
+
