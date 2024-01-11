@@ -148,3 +148,40 @@ eg-:
 **_____Garbage Collector_____**
 * garbage collector software 1ken wenne awashya nethi data nethi krla danawaa.
 * Reference varible wala refer wela nethi variable stack aken remove krla danawa..
+
+
+case 7 → (passing an object into a method)--Same=> Arrays
+====================================================
+(passing an object into a method )-Calling/Invoke=> Arrays
+//Object 1kaka athi values thawath Object 1kakata pass kirimai..anam object 2kak thibe.
+
+
+
+case 8 (Return an object from a method)
+=================================
+
+case 9
+=====
+Box b1 = null;//reference variable 1kak initialization krnna puluwan null constand 1ken..null kiyanne compiler receive krpu value 1kak..but Runtime Error wee.
+//enam object aken nowa Template(Original Class) aken thama thiyeda blnne..
+
+
+
+**_____Object Initialization-(Constructor)_______**
+
+ex-:
+Test() {
+length = 0;
+height = 0;
+width = 0;
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++
+
+Box b1 = new Box();//-->Box()------>>**_calling Constructor_**
+
+//constructor kiyanne special method 1kak..
+//constructor create krnna ona class 1ke name 1kenmai awagema return type 1kak nethuwa.
+//constructor kranne object 1kak create  kra compile kra mohothe sita class 1ke defalut values add we...
+
+
