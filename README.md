@@ -148,3 +148,18 @@ eg-:
 **_____Garbage Collector_____**
 * garbage collector software 1ken wenne awashya nethi data nethi krla danawaa.
 * Reference varible wala refer wela nethi variable stack aken remove krla danawa..
+
+
+case 7 → (passing an object into a method)--Same=> Arrays
+====================================================
+
+/////////////////////////////////////////
+
+(passing an object into a method )-Calling/Invoke=> Arrays
+
+//Object 1kaka athi values thawath Object 1kakata pass kirimai..anam object 2kak thibe.
+
+//////////////////////////////////////
+
+case 8 (Return an object from a method)
+=================================
