@@ -28,7 +28,7 @@ package Cases;
             t1.setSize(12, 5, 3);
 
             Testss t2 = t1.getCopy();
-            System.out.println(t1 == t2);//False
+            System.out.println(t1 == t2);//true
             t1.printVolume();//180
             t2.printVolume();//180
         }
