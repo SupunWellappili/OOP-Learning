@@ -12,6 +12,11 @@ package Cases;
     }
 
     public Tests getCopy() {
+        /*Tests t = new Tests();
+        t.height=this.height;
+        t.weight=this.weight;
+        t.length=this.length;
+        return t;*/
         Tests tt = new Tests();
         tt.setSize(height, length, weight);
         return tt;
