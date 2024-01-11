@@ -28,7 +28,20 @@ reusable
 //Object eka kiyanne templete eke clone ekak/blueprint akak. 
 
 ///////////////////////////////////////////////////////
+
+
 case 1
 ======
 x[0]=100; //Arrays waladi asign krna widiya
 b1.length =18  //Object waladi asign krna widiya
+
+______Adding a parameterized method__________
+
+case 2 → (Adding a parameterized method)
+===================================
+ss
+
+________Default Values_________
+
+case 3----(Default Values)
+======================
