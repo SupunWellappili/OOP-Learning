@@ -31,7 +31,7 @@ public class Demo05 {
 
         System.out.println("----------------");
 
-        b1=b2;
+        b1=b2;//Reference Variable Address Values asigns
 
         b1.printValue();
         b2.printValue();

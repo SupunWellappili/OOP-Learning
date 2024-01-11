@@ -142,3 +142,9 @@ b1 = b2; //copy wenawa adrees values to adress values
 
 eg-:
 //arrays reference walath values copy wenne naaa address asign wimai wenne
+
+
+
+**_____Garbage Collector_____**
+* garbage collector software 1ken wenne awashya nethi data nethi krla danawaa.
+* Reference varible wala refer wela nethi variable stack aken remove krla danawa..
