@@ -209,6 +209,10 @@ public void Test(int height, int width, int length) {//void demmama method 1kak 
 
 case 6→ (Constructor to Constructor Calling)-this(xxx)
 =============================================
+//A(100); //illegal
+this(100);
+System.out.println("A()"");
+//A(int i) kiyana constructor 1ka call krna widiya..meya sop 1ka yatin danna baa rules 1kak udinma thiyenna ona
 
 case 7 (Declaration Values)
 =========================
