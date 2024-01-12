@@ -189,6 +189,10 @@ case 1→ (parameterized constructor)
 ============================
 
 
-case 2 → (manual constructor)
+case 2→ (manual constructor)
 ======================
+api constructor kenek heduwama constructor values danne naa
 
+
+case 3--> (Constructor Overloading)
+=========================
