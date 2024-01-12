@@ -194,5 +194,21 @@ case 2→ (manual constructor)
 api constructor kenek heduwama constructor values danne naa
 
 
-case 3--> (Constructor Overloading)
+case 3 → (Constructor Overloading)
+=========================
+
+case 4 → (Constructor calling)
+=====================
+//t1.Test(12,3,2); illegal→
+Object 1kak hadala eta passe constructor call krnna baa..object 1ka sadana stagement akema call krnna ona
+
+case 5 → (Not Constructor calling--void & method arguments)
+===============================================
+//den meya constructor 1kak newei method calling arguments
+public void Test(int height, int width, int length) {//void demmama method 1kak wee
+
+case 6→ (Constructor to Constructor Calling)-this(xxx)
+=============================================
+
+case 7 (Declaration Values)
 =========================
