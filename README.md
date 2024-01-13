@@ -229,3 +229,11 @@ System.out.println("A()"");
 
 case 7 (Declaration Values)
 =========================
+
+
+case 8 (Instance Blocks)
+====================
+//sema thenata podu nam aka instance blocks lesa hadanna puluwan.awita compile kra wita construction ama values copy kra gani..
+
+
+
