@@ -28,3 +28,4 @@ public class Demo08 {
         Chair c1 = new Chair();
     }
 }
+//Method override unata attribute override wenne netha..

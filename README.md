@@ -214,5 +214,18 @@ this(100);
 System.out.println("A()"");
 //A(int i) kiyana constructor 1ka call krna widiya..meya sop 1ka yatin danna baa rules 1kak udinma thiyenna ona
 
+
+============================================
+    public Test(int length) {
+        /*this.height = length;
+        this.width = length;
+        this.length = length;*/
+
+        this(length, length, length);
+        System.out.println("Box(int)");
+    }
+
+//Method override unata attribute override wenne netha..
+
 case 7 (Declaration Values)
 =========================
