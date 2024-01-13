@@ -248,3 +248,5 @@ _Static Initialization (Static Blocks,Template Object)_
 //static vatiable sedenne template ake..instance veriable(podu awaa) hedenne object ake object ake hedena awa access krnna baaa.
 
 static walata eg  -:Math.PI(PI) integer.MAXVALUES(MAXVALUES)-->mewanam tha final krlath atha
+
+
