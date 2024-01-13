@@ -1,8 +1,8 @@
 package Static_Initialization;
 
 class Test{
-    int a;
-    static int b;
+    int a;//Instance Variable
+    static int b;//Static variable
 }
 
 public class Demo01 {
