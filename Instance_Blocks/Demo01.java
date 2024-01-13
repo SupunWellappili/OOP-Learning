@@ -1,8 +1,4 @@
 package Instance_Blocks;
-
-
-import org.w3c.dom.ls.LSOutput;
-
 class test {
     int height;
     int weight;
@@ -24,7 +20,5 @@ public class Demo01 {
     public static void main(String[] args) {
         test t1 = new test();
         t1.printVolume();
-
-
     }
 }
