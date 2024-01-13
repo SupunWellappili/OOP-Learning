@@ -235,5 +235,16 @@ case 8 (Instance Blocks)
 ====================
 //sema thenata podu nam aka instance blocks lesa hadanna puluwan.awita compile kra wita construction ama values copy kra gani..
 
+_Static Initialization (Static Blocks,Template Object)_
+*Static Variables  //Anith awaa "Instant Variables" → object ake thiyena awata
+*Static Method
 
 
+**______Static Variable______**
+
+//Static variable hedenne object 1ke newei Template 1ke wenama location 1kaka we..Access krnna puluwan.
+
+
+//static vatiable sedenne template ake..instance veriable(podu awaa) hedenne object ake object ake hedena awa access krnna baaa.
+
+static walata eg  -:Math.PI(PI) integer.MAXVALUES(MAXVALUES)-->mewanam tha final krlath atha
