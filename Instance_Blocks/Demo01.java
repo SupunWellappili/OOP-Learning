@@ -16,6 +16,7 @@ class test {
     }
 }
 
+
 public class Demo01 {
     public static void main(String[] args) {
         test t1 = new test();

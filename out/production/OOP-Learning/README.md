@@ -1,5 +1,6 @@
 # OOP-Learning
 Object-Oriented Programming Concepts
+OOP/String/API/Regex/Thread/Collection/JDBC/Stream/Generics
 
 
 **______OOP-(Object Oriented Programming)__________**
@@ -250,3 +251,7 @@ _Static Initialization (Static Blocks,Template Object)_
 static walata eg  -:Math.PI(PI) integer.MAXVALUES(MAXVALUES)-->mewanam tha final krlath atha
 
 
+____________Multi-Dimensional Arrays_____________
+
+01)one dimensional arrays
+02)two dimensional arrays(2D arrays)
