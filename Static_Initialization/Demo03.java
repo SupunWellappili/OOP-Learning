@@ -8,7 +8,7 @@ class Sea {
 
 public class Demo03 {
     public static void main(String[] args) {
-        //Sea.a = 123;//Object ake awa direct access krnna baa
+        //Sea.a = 123;//Object ake awa direct access krnna baa.
         Sea.b = 321;//Template ake thiyena awa direct access krna puluwn.
         System.out.println(Sea.b);//321
 
