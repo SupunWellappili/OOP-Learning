@@ -255,3 +255,12 @@ ____________Multi-Dimensional Arrays_____________
 
 01)one dimensional arrays
 02)two dimensional arrays(2D arrays)
+
+
+
+**OOP Concept**
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+
