@@ -60,7 +60,16 @@ class Customer {
     }
 
     public Customer() {
+    }
 
+    @Override
+    public String toString() {//Address ake Details tika Print wenawa..
+        return "Customer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", salary=" + salary +
+                '}';
     }
 }
 
@@ -70,7 +79,7 @@ public class Demo01 {
         c1.setId(001);
         c1.setName("Supun");
         c1.setAddress("Galle");
-        c1.setSalary(35000);
+        c1.setSalary(35000.7545);
         c1.showData();
 
         System.out.println("--------");
@@ -79,9 +88,23 @@ public class Demo01 {
         c2.setId(002);
         c2.setName("Wellappili");
         c2.setAddress("Kataragama");
-        c2.setSalary(-6.5);
+        c2.setSalary(76000.545);
         c2.showData();
 
+        System.out.println(c1.getId());
+        System.out.println(c1.getName());
+        System.out.println(c1.getAddress());
+        System.out.println(c1.getSalary());
 
+        System.out.println("--------");
+
+        System.out.println(c2.getId());
+        System.out.println(c2.getName());
+        System.out.println(c2.getAddress());
+        System.out.println(c2.getSalary());
+
+
+        System.out.println(c1);
+        System.out.println(c2);
     }
 }
