@@ -1,5 +1,7 @@
 package Encapsulation;
 
+import javax.swing.*;
+
 class Customer {
     private int id;
     private String name;
@@ -35,7 +37,10 @@ class Customer {
     }
 
     public void setSalary(double salary) {
-        if (salary<0) return;
+        if (salary < 0) {
+            JOptionPane.showConfirmDialog(null, "Wrong Input");
+            return;
+        }
         this.salary = salary;
     }
 
@@ -43,6 +48,20 @@ class Customer {
         System.out.println("ID --> " + id + "\tName--> " + name + "\tAddress--> " + address + "\tSalary--> " + salary);
     }
 
+    public Customer(int id, String name, String address, double salary) {
+        if (salary < 0) {
+            JOptionPane.showConfirmDialog(null, "Wrong Input");
+            return;
+        }
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.salary = salary;
+    }
+
+    public Customer() {
+
+    }
 }
 
 public class Demo01 {
@@ -60,7 +79,7 @@ public class Demo01 {
         c2.setId(002);
         c2.setName("Wellappili");
         c2.setAddress("Kataragama");
-        c2.setSalary(75000);
+        c2.setSalary(-6.5);
         c2.showData();
 
 

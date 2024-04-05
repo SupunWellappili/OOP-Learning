@@ -259,7 +259,7 @@ ____________Multi-Dimensional Arrays_____________
 
 
 **OOP Concept**
-Encapsulation
+Encapsulation - Filed(Attributes) Sema deyakma private wenna ona. 
 Inheritance
 Polymorphism
 Abstraction
