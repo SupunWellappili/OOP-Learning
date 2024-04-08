@@ -22,6 +22,7 @@ class BB extends AA { //Super Constructor Call wenawaa//
     int b;
 
     BB() {
+        super();//first statement aka wiyayuthui
         System.out.println("B()");
     }
 
