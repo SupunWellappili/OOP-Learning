@@ -1,2 +1,12 @@
-package Multi_Diamention;public class Demo01 {
+package Multi_Diamention;
+
+
+class A {
+    void get() {}
 }
+
+class B {
+    void get() {}
+}
+
+//class C extends A, B {}//Error
