@@ -15,12 +15,21 @@ class Car extends Vehicle {
     public void park() {
         System.out.println("Car Parking(50)");
     }
+
+    public void pay() {
+        System.out.println("Car Payment");
+    }
 }
 
 class Van extends Vehicle {
     public void park() {
         System.out.println("Van Parking(50)");
     }
+
+    public void pay() {
+        System.out.println("Van Payment");
+    }
+
 }
 
 class Bus extends Vehicle {
@@ -29,7 +38,7 @@ class Bus extends Vehicle {
     }
 
     public void pay() {
-        System.out.println("Pay Payment");
+        System.out.println("Bus Payment");
     }
 }
 
@@ -38,7 +47,7 @@ class Demo01 {
     public static void main(String[] args) {
         Vehicle v1 = new Car();
         v1.park();
-        v1.park();
+        v1.pay();
 
         System.out.println("==========");
 
