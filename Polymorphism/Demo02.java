@@ -11,8 +11,11 @@ abstract class IPhone1 { //Concrete Class
     abstract public void sendMessage(); //Abstract Method (Implementation akak nee (Body akak na))
 }
 
-public class Demo02 {
-    public static void main(String[] args) {
+ class IPhone2 extends  IPhone1{
 
-    }
-}
+     @Override
+     public void sendMessage() {
+
+     }
+ }
+
