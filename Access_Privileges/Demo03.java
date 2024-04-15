@@ -8,8 +8,12 @@ class AAAA {
 
 
 class BBBB extends AAAA {
-    public AAAA get() {
+    /*public AAAA get() {
         return new AAAA();
+    }*/
+
+    public BBBB get(){
+        return new BBBB();
     }
 }
 
@@ -24,4 +28,4 @@ class Demo03 {
     }
 }
 
-//Override krma return type object ake super class return type wiyauthumai...
+//Override krma return type object ake super class return type wiyauthumai kiyala deyak netha...
