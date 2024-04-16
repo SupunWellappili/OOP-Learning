@@ -1,9 +1,13 @@
 package Garbage_Collector;
 
 class MyClass {
-    long[] xr = new long[100000];
+    int a;
 
-    public void finalize(){ //GC
+    MyClass(int a) {
+        this.a = a;
+    }
+
+    public void finalize() { //GC
         System.out.println("Deleted....");
     }
 }
@@ -11,16 +15,16 @@ class MyClass {
 public class Demo01 {
     public static void main(String[] args) {
         System.out.println("Start Main");
-           new MyClass();
-           new MyClass();
-           new MyClass();
+        MyClass m1 = new MyClass(100);
+        m1 =null;
 
-          // System.gc();
+        // System.gc();
         Runtime.getRuntime().gc();
 
         try {
             Thread.sleep(2000);
-        }catch (Exception e){}
+        } catch (Exception e) {
+        }
 
         System.out.println("End Main");
 
