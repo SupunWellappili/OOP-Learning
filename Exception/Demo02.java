@@ -6,7 +6,8 @@ public class Demo02 {
         int x = 10;
         try {
             System.out.println("Start Try");
-            int y = x / 0;
+           // int y = x / 0;
+            int y = x / 2;
             System.out.println("End Try");
 
         } catch (Exception e) {
