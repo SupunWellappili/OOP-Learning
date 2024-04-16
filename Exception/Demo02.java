@@ -5,16 +5,11 @@ public class Demo02 {
         System.out.println("Start Main");
         int x = 10;
         try {
-            System.out.println("Start Try");
-           // int y = x / 0;
-            int y = x / 2;
-            System.out.println("End Try");
+            int y = x / 0;
+           // int y = x / 2;
 
         } catch (Exception e) {
-            System.out.println("Start Catch");
-            System.out.println(e);
-            System.out.println("End Catch");
-
+            e.printStackTrace();
         }
         System.out.println(x);
         System.out.println("End Main");
