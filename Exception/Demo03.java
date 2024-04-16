@@ -8,11 +8,11 @@ public class Demo03 {
             int x = 10 / 2;
             int[] xr = new int[10];
             xr[50] = 100;
-        } catch (ArithmeticException e) {
+        } catch (ArithmeticException | IndexOutOfBoundsException e) { //Catch Ladder
             e.printStackTrace();
-        } catch (IndexOutOfBoundsException e) {
+        } /*catch (IndexOutOfBoundsException e) {
             e.printStackTrace();
-        }
+        }*/
         System.out.println("End Main");
     }
 }
