@@ -1,7 +1,10 @@
 package Abstraction;
 
+interface GoodGirl {
+    void kiss();
+}
 
-class Girl {
+class Girl implements GoodGirl {
     public void kiss() {
         System.out.println("Ummaaaahh!!!");
     }
@@ -10,7 +13,9 @@ class Girl {
 class Boy {
     public void kissGirl() {
         while (true) {
-            new Girl().kiss();
+            //new Girl().kiss();
+            GoodGirl g1 = new Girl();
+            g1.kiss();
         }
     }
 }
