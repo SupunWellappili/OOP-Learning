@@ -11,11 +11,17 @@ class MyClass {
 public class Demo01 {
     public static void main(String[] args) {
         System.out.println("Start Main");
-
-        for (int i = 0; i < 10000; i++) {
-            System.out.println("i: " + i);
            new MyClass();
-        }
+           new MyClass();
+           new MyClass();
+
+          // System.gc();
+        Runtime.getRuntime().gc();
+
+        try {
+            Thread.sleep(2000);
+        }catch (Exception e){}
+
         System.out.println("End Main");
 
     }
