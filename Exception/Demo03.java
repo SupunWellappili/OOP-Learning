@@ -13,6 +13,10 @@ public class Demo03 {
         } /*catch (IndexOutOfBoundsException e) {
             e.printStackTrace();
         }*/
+
+        finally {
+            System.out.println("finally");
+        }
         System.out.println("End Main");
     }
 }
