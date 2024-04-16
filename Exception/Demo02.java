@@ -5,9 +5,15 @@ public class Demo02 {
         System.out.println("Start Main");
         int x = 10;
         try {
+            System.out.println("Start Try");
             int y = x / 0;
-        }catch (Exception e){
+            System.out.println("End Try");
+
+        } catch (Exception e) {
+            System.out.println("Start Catch");
             System.out.println(e);
+            System.out.println("End Catch");
+
         }
         System.out.println(x);
         System.out.println("End Main");
